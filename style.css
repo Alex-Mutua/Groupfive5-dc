@@ -1,0 +1,75 @@
+/* Style global */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url("https://www.incidence-deco.com/wp-content/uploads/2021/03/decoration-interieure-rustique.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour la barre latérale */
+.stSidebar {
+    background-color: #d9731f; /* Orange vif */
+    color: white;
+    padding: 20px;
+    border-right: 2px solid #b15614;
+}
+
+.stSidebar select, .stSidebar button {
+    margin-top: 10px;
+    background-color: #b15614;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+/* Conteneur de titre principal */
+.stApp > header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+h1 {
+    background-color: rgba(217, 115, 31, 0.8); /* Fond semi-transparent */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Style des boutons principaux */
+button {
+    background-color: #b15614;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #e6863d;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style des conteneurs de texte */
+p, li {
+    color: #212529; /* Texte sombre pour contraste */
+    font-size: 16px;
+}
+
+/* Style des cartes ou sections */
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+}
